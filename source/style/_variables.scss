@@ -1,0 +1,29 @@
+/*
+  VARIABLES
+*/
+
+// TYPOGRAPHY
+@import url(http://fonts.googleapis.com/css?family=Lato:300);
+
+$bodyFont: 'Lato','Helvetica Neue', Helvetica, Arial, sans-serif;
+
+
+// COLOURS
+$bgColor: gray;
+$textColor: white;
+
+
+// CENTERING IN THE UNKNOWN
+@mixin centering {
+  text-align: center;
+  &:before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+  }
+  > * {
+    display: inline-block;
+    vertical-align: middle;
+  }
+}

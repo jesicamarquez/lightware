@@ -1,0 +1,24 @@
+@import "../style/variables";
+
+body {
+  font-size: 32px;
+}
+
+header {
+}
+
+main {
+}
+
+button {
+}
+
+section {
+  border-bottom: solid 1px white;
+}
+
+a {
+  text-decoration: none;
+  color: $textColor;
+  cursor: pointer;
+}

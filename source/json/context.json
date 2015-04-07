@@ -1,0 +1,35 @@
+{
+  "title": "Lightware",
+  "list": [
+    {
+      "id": "family",
+      "label": "Family",
+      "items": [
+        {
+          "id": "mom",
+          "label": "Mom"
+        },
+        {
+          "id": "bro",
+          "label": "Bro"
+        },
+        {
+          "id": "sister",
+          "label": "Sister"
+        }
+      ]
+    },
+    {
+      "id": "friends",
+      "label": "Friends",
+      "items": [
+      ]
+    },
+    {
+      "id": "bae",
+      "label": "BAE",
+      "items": [
+      ]
+    }
+  ]
+}
