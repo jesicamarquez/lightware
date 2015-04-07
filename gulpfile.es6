@@ -35,6 +35,16 @@ gulp.task('publish', (() => {
     .pipe(awspublish.reporter(publishReporterOptions));
 }));
 
+gulp.task('aws-config', (() => {
+  var fs = require('fs-extra'),
+    file = './json/awsConfig.json',
+    val = '{\n  "key": "AWSAccessKeyId",\n  "secret": "AWSSecretKey",\n  "bucket": "lightware"\n}';
+  fs.createOutputStream(file);
+  fs.outputFile(file, val, function (err) {
+    console.log(err) // => null
+  });
+}));
+
 gulp.task('build', (() => {
   return runSequence('webpack', 'copy-assets', 'publish', 'cleanup');
 }));

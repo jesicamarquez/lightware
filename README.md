@@ -38,7 +38,13 @@ This application has been used the following library for MVC:
 
 ## Deployment
 
+### Setup AWS Security Credentials
+
+Run ```gulp aws-config``` , open ```json/awsConfig.json``` and change ```AWSAccessKeyId``` and ```AWSSecretKey```.
+
+
 ### Publish to S3
+
 
 ```gulp build```
 
