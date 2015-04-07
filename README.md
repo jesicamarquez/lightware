@@ -30,7 +30,7 @@ This application has been used the following library for MVC:
 
 ### Run server
 
-```gulp```
+Run ```gulp```.
 
 
 We haven't added livereload this time so please reload by yourself after any changes. Sorry for the inconvenience.
