@@ -9,7 +9,7 @@ var Item = React.createClass({
       <section>
         <div className="video">
           <video controls="true">
-            <source src="http://media.w3.org/2010/05/sintel/trailer.mp4" type="video/mp4" />
+            <source src="/assets/videos/lady_reversed.mp4" type="video/mp4" />
           </video>
         </div>
         <span>{label}</span>
